@@ -13,5 +13,11 @@ python3.11 -m pip install MiPA
 cp env.example .env
 ```
 3. .envファイルの中身を編集する(これをしないと動きません)
-4. ./start.shを実行
-5. 楽しむ！
+```
+# MisskeyのBotのインスタンスのURL
+BOT_URL=wss://example.com/streaming
+# Bot用のキー
+BOT_KEY=1234567890
+```
+5. ./start.shを実行
+6. 楽しむ！
