@@ -10,7 +10,7 @@
 2. 
 ```
 python3.11 -m pip install MiPA
-cp .env.example .env
+cp env.example .env
 ```
 3. .envファイルの中身を編集する(これをしないと動きません)
 4. ./start.shを実行
