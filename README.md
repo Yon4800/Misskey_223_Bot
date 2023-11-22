@@ -7,7 +7,7 @@
 - Yupixさんありがとうございます！
 # 使い方
 1. Python3.11(pipも)と、screenをインストール
-2. 
+2. envファイルをコピーする
 ```
 python3.11 -m pip install MiPA
 cp env.example .env
