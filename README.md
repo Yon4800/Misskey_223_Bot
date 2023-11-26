@@ -6,13 +6,14 @@
 - https://github.com/yupix/MiPA
 - Yupixさんありがとうございます！
 # 使い方
-1. Python3.11(pipも)と、screenをインストール
-2. envファイルをコピーする
+1. このリポジトリを git clone する
+2. Python3.11(pipも)と、screenをインストール
+3. envファイルをコピーする
 ```
 python3.11 -m pip install MiPA
 cp env.example .env
 ```
-3. .envファイルの中身を編集する(これをしないと動きません)
+4. .envファイルの中身を編集する(これをしないと動きません)
 ```
 # MisskeyのBotのインスタンスのURL
 BOT_URL=wss://example.com/streaming
